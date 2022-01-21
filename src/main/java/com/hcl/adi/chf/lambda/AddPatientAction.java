@@ -15,7 +15,7 @@ import com.hcl.adi.chf.util.ResponseGenerator;
  * update 'is_action_open' flag as 1 in patient_phi table for the specified
  * patient id
  *
- * @author Shivendra Singh
+ * @author Shivendra Singh and Janani
  */
 public final class AddPatientAction implements RequestHandler<PatientActions, PatientActions> {
 	private static final Logger LOGGER = LogManager.getLogger(AddPatientAction.class.getName());
